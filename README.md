@@ -4,7 +4,7 @@
 - [Overview](#overview)
 - [Dataset](#dataset)
 - [Objectives](#objectives)
-- [Features](#features)
+- [Dataset Features](#dataset-features)
 - [Implementation](#implementation)
 - [Results & Insights](#results--insights)
 
@@ -26,9 +26,6 @@ The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/stealthtech
 - Provide insights into factors contributing to employee attrition.
 
 ---
-
-## Features
-Below is a table describing the dataset features:
 
 ## 📊 Dataset Features  
 
