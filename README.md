@@ -1,4 +1,4 @@
-##Employee Attrition Prediction
+#Employee Attrition Prediction
 
 ## 📌 Table of Contents
 - [Overview](#overview)
@@ -58,7 +58,6 @@ Below is a table describing the dataset features:
 | **Company Reputation**     | The employee's perception of the company's reputation: (Very Poor, Poor, Good, Excellent). |
 | **Employee Recognition**   | The level of recognition the employee receives: (Very Low, Low, Medium, High). |
 
----
 
 ## 🎯 Target Feature  
 
