@@ -40,5 +40,6 @@ Below is a table describing the dataset features:
 | **Attrition** | **Target feature – Whether the employee has left the company, encoded as 0 (Stayed) and 1 (Left).** |
 
 ## Implementation
-- **Data Preparation:** Handling missing values, encoding categorical variables, and feature scaling.
+- **Data Preparation:** Uniting Tables, Reduce Large Categories, Clean Text, and Transform/Manipulate data.
 
+## Results & Insights
