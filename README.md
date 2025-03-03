@@ -1,5 +1,15 @@
 # Employee Attrition Prediction
 
+# Employee Attrition Prediction
+
+## Table of Contents
+- [Overview](#overview)
+- [Dataset](#dataset)
+- [Objectives](#objectives)
+- [Features](#features)
+- [Implementation](#implementation)
+- [Results & Insights](#results--insights)
+
 ## Overview
 This project aims to predict employee attrition using machine learning techniques. By analyzing various employee-related factors, we build a predictive model to help organizations identify potential attrition risks and take proactive measures.
 
