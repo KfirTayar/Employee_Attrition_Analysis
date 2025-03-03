@@ -1,7 +1,5 @@
 # Employee Attrition Prediction
 
-# Employee Attrition Prediction
-
 ## Table of Contents
 - [Overview](#overview)
 - [Dataset](#dataset)
