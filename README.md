@@ -27,8 +27,8 @@ The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/stealthtech
 
 ## 📊 Dataset Features  
 
-| Feature                     | Description |
-|-----------------------------------------|-----|
+| Feature | Description |
+|-----------|-------------|
 | **Employee ID**             | A unique identifier assigned to each employee. |
 | **Age**                     | The age of the employee, ranging from 18 to 60 years. |
 | **Gender**                  | The gender of the employee. |
