@@ -1,5 +1,3 @@
-#Employee Attrition Prediction
-
 ## 📌 Table of Contents
 - [Overview](#overview)
 - [Dataset](#dataset)
@@ -58,8 +56,6 @@ The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/stealthtech
 
 ## 🎯 Target Feature  
 
-| Feature   | Description |
-|-----------|-------------|
 | **Attrition** | Whether the employee has left the company, encoded as 0 (Stayed) and 1 (Left). |
 
 ---
