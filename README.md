@@ -53,12 +53,9 @@ The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/stealthtech
 | **Company Reputation**     | The employee's perception of the company's reputation: (Very Poor, Poor, Good, Excellent). |
 | **Employee Recognition**   | The level of recognition the employee receives: (Very Low, Low, Medium, High). |
 
----
-
-
 ## 🎯 Target Feature
 
-| Target Feature   | Description |  
+| Target Feature | Description |  
 |-----------|-------------|
 | **Attrition** | Whether the employee has left the company, encoded as 0 (Stayed) and 1 (Left). |
 
