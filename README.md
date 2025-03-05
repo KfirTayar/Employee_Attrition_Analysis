@@ -2,7 +2,7 @@
 - [Overview](#overview)
 - [Dataset](#dataset)
 - [Objectives](#objectives)
-- [Dataset Features](#📊-dataset-features)
+- [Dataset Features](#-dataset-features)
 - [Implementation](#implementation)
 - [Results & Insights](#results--insights)
 
