@@ -2,14 +2,14 @@
 - [Overview](#overview)
 - [Dataset](#dataset)
 - [Objectives](#objectives)
-- [Dataset Features](#dataset-features)
+- [Dataset Features](#📊 dataset-features)
 - [Implementation](#implementation)
 - [Results & Insights](#results--insights)
 
 ---
 
 ## Overview
-This project aims to predict employee attrition using machine learning techniques. By analyzing various employee-related factors, we build a predictive model to help organizations identify potential attrition risks and take proactive measures.
+This project aims to predict employee attrition using machine learning techniques. By analyzing various employee-related factors, I build a predictive model to help organizations identify potential attrition risks and take proactive measures
 
 ---
 
