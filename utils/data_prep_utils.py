@@ -2,9 +2,15 @@ import pandas as pd
 import datetime
 import os
 
+# Trun all the Object features into Category
+def turn_object_into_category(df):
+    for col in df.select_dtypes(['object']):
+        df[col] = df[col].astype('category')
+
+    return df
+
 # Display summary of category cols
 def display_category_summary(df):
-    
     cat_summary_df = pd.DataFrame({
         "Feature": df.select_dtypes(['category']).columns,
         "Unique Values": [df[col].nunique() for col in df.select_dtypes(['category'])],
@@ -16,15 +22,13 @@ def display_category_summary(df):
 
 # Drop selected features
 def drop_selected_cols(df, cols: list):
-    
     for col in cols:
         df = df.drop(columns=[col])
         
     return df
 
 # Save file as a pickle file
-def save_prep_df(df, folder: str, file_name: str):
-    
+def save_prep_df(df, folder: str, file_name: str): 
     # Generate current timestamp
     timestamp = datetime.datetime.now().strftime("%Y%m%d")
 
