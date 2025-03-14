@@ -28,7 +28,7 @@ def drop_selected_cols(df, cols: list):
     return df
 
 # Save file as a pickle file
-def save_prep_df(df, folder: str, file_name: str): 
+def save_file_as_pickle(df, folder: str, file_name: str): 
     # Generate current timestamp
     timestamp = datetime.datetime.now().strftime("%Y%m%d")
 

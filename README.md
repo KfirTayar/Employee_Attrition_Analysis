@@ -3,7 +3,6 @@
 - [Dataset](#dataset)
 - [Objectives](#objectives)
 - [Dataset Features](#-dataset-features)
-- [Implementation](#implementation)
 - [Results & Insights](#results--insights)
 
 ---
@@ -58,32 +57,6 @@ The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/stealthtech
 | Target Feature | Description |  
 |-----------|-------------|
 | **Attrition** | Whether the employee has left the company, encoded as 0 (Stayed) and 1 (Left). |
-
----
-
-## Implementation
-1. **Data Preparation:** 
-
-- Uniting Tables: Combine different data sources into a unified
-dataset, ensuring consistency and alignment of data points.
-- Reduce Large Categories: Simplify datasets by reducing the
-number of categories in categorical variables where necessary.
-This might involve grouping smaller categories into an "Other"
-category.
-- Clean Text: Perform text cleaning by removing stop words,
-punctuation, special characters, and normalizing text (e.g.,
-lowercasing).
-- Transform/Manipulate data
-
-2. **Exploratory Data Analysis (EDA)**
-
-- Instant Reports: Generate initial reports to get a quick overview
-of the dataset, including summary statistics and distributions.
-- Descriptive Analysis: Use statistical methods and visualizations
-to understand the data, identify patterns, trends, and potential
-issues.
-- Correlation and other relationship Analysis: between different
-features to identify multicollinearity and feature importance.
 
 ---
 
