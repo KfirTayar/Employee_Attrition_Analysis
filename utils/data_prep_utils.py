@@ -18,7 +18,7 @@ def display_category_summary(df):
     })
     
     cat_summary_df.set_index('Feature', inplace=True)
-    display(cat_summary_df)
+    return cat_summary_df
 
 # Drop selected features
 def drop_selected_cols(df, cols: list):
