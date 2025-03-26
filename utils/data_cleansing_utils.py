@@ -15,8 +15,8 @@ def plot_missing_heatmap(df, title="Missing Values Heatmap"):
     - df: DataFrame with missing values.
     - title: Title for the plot.
     """
-    plt.figure(figsize=(12, 10))
-    sns.heatmap(df.isnull(), cmap='YlGnBu', cbar=False, yticklabels=False)
+    plt.figure(figsize=(13, 6))
+    sns.heatmap(df.isnull(), cmap='viridis', cbar=False, yticklabels=False)
     plt.title(title, fontsize=14)
     plt.show()
 
@@ -39,7 +39,8 @@ def replace_outliers_with_nan(df, threshold=1.5):
 # Fill missing values (outliers) using MICE method
 def fill_missing_mice(df, max_iter=10, random_state=42):
     """
-    Fills NaN values using the MICE (Iterative Imputer) method.
+    Fills NaN values using the MICE (Iterative Imputer) method, setting 
+    min_value and max_value dynamically for each feature.
 
     Parameters:
     - df: DataFrame with missing values.
@@ -49,7 +50,19 @@ def fill_missing_mice(df, max_iter=10, random_state=42):
     Returns:
     - DataFrame with NaN values imputed.
     """
-    imputer = IterativeImputer(max_iter=max_iter, min_value=0, random_state=random_state)
+    # Get min and max for each column
+    min_vals = df.min()
+    max_vals = df.max()
+
+    # Define the imputer with dynamic min/max values
+    imputer = IterativeImputer(
+        max_iter=max_iter, 
+        random_state=random_state, 
+        min_value=min_vals.values, 
+        max_value=max_vals.values
+    )
+    
+    # Apply the imputer
     df_imputed = pd.DataFrame(imputer.fit_transform(df), columns=df.columns)
 
     return df_imputed
