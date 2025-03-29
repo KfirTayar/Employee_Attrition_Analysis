@@ -9,7 +9,8 @@
 ## Overview
 This project aims to predict employee attrition using machine learning techniques. By analyzing various employee-related factors, I build a predictive model to help organizations identify potential attrition risks and take proactive measures
 
-- For a full overview, you can download the report [here](data/Employee_Attrition_Overview.pdf){:target="_blank" download}.
+- For a full overview, you can download the report [here](https://github.com/KfirTayar/Employee_Attrition_Analysis/blob/main/data/Employee_Attrition_Overview.pdf?raw=true).
+
 
 ---
 
