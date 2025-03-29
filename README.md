@@ -3,12 +3,13 @@
 - [Dataset](#dataset)
 - [Objectives](#objectives)
 - [Dataset Features](#-dataset-features)
-- [Results & Insights](#results--insights)
 
 ---
 
 ## Overview
 This project aims to predict employee attrition using machine learning techniques. By analyzing various employee-related factors, I build a predictive model to help organizations identify potential attrition risks and take proactive measures
+
+- For a full overview, you can download the report [here](data/Employee_Attrition_Overview.pdf).
 
 ---
 
@@ -57,7 +58,3 @@ The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/stealthtech
 | Target Feature | Description |  
 |-----------|-------------|
 | **Attrition** | Whether the employee has left the company, encoded as 0 (Stayed) and 1 (Left). |
-
----
-
-## Results & Insights
